@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  box-sizing: 0;
+  /* padding: 0; */
+}
+body {
+  background-color: rgba(224, 224, 224, 0.6);
+}
+@font-face {
+  font-family: 'montserratextralight';
+  src: url('../font/montserrat-extralightitalic.woff2') format('woff2'),
+       url('../font/montserrat-extralightitalic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserratmedium_italic';
+  src: url('../font/montserrat-mediumitalic.woff2') format('woff2'),
+       url('../font/montserrat-mediumitalic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.foto-perfil, .titulo, .encabezados, .redes {
+  display: flex;
+  align-items: center;
+}
+.foto-perfil, .titulo, .redes {
+  justify-content: center;
+}
+.titulo, .encabezados, .pie-de-pagina, .imagen-banner button {
+  font-family: montserratmedium_italic, Arial, Helvetica, sans-serif;
+  background-color: #f1d3d6;
+  color: #181818;
+}
+.contenedor-experiencia, .lista-datos {
+  font-family: montserratextralight, Arial, Helvetica, sans-serif;
+}
+.foto-personal {
+  width: 210px;
+  border-radius: 50%;
+  box-shadow:  7px 7px 15px rgba(0, 0, 0, 0.5);
+}
+.imagen-banner {
+  background-image: url('../img/banner1.jpg');
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  height: 140px;
+}
+.imagen-banner button {
+  margin-left: 150px;
+  justify-content: center;
+  background-color: #f1d3d6;
+  border-radius: 15px;
+  padding: 7px;
+  border: none;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+}
+.imagen-banner button:hover {
+  background-color: #18181880;
+}
+.imagen-banner button a {
+  text-decoration: none;
+  color: #181818;
+  font-weight: bolder;
+  font-size: 25px;
+}
+.foto-perfil {
+  padding: 15px;
+}
+.titulo {
+  height: 50px;
+}
+.encabezados {
+  padding-left: 20px;
+  height: 30px;
+}
+.estilo-letra {
+  font-style: italic;
+  font-weight: bold;
+}
+.lista-datos {
+  margin: 20px 0px;
+  font-size: 18px;
+}
+.lista-datos li {
+  margin: 5px;
+}
+.datos {
+  width: 100%;
+}
+.contenedor-experiencia {
+  display: flex;
+  font-size: 18px;
+  margin: 15px 10px 15px 30px;
+  border-bottom: 1px solid rgba(169, 169, 169, 0.3);
+}
+.anio {
+  font-weight: bold;
+  margin-right: 5px;
+  width: 200px;
+}
+.pie-de-pagina {
+  bottom: 0;
+  width: 100%;
+  font-weight: bold;
+  font-size: 20px;
+  justify-content: space-around;
+}
+.redes img {
+  width: 35px;
+  margin: 10px 15px;
+}
+.copyright {
+  font-size: 15px;
+  font-weight: lighter;
+  bottom: 0;
+  text-align: center;
+  padding: 15px;
+}
+
